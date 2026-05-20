@@ -30,6 +30,7 @@ export function LandingPage({
       nombre: 'Colegio Champagnat',
       ubicacion: 'Ibagué, Tolima',
       imagen: '/Champagnat.jpg',
+      servicios: 11,
       descripcion: 'Educación bilingüe de excelencia',
       tipo: 'Mixto',
       idioma: 'Bilingüe: Español - Inglés',
