@@ -55,7 +55,7 @@ export function ServicesMarketplace({
       frecuencia: 'Mensual',
       icon: <Bus size={24} />,
       categoria: 'Transporte',
-      imagen: '/data/bus.jpg',
+      imagen: '/public/bus.jpg',
     },
     {
       id: 'transporte-ida',
@@ -65,7 +65,7 @@ export function ServicesMarketplace({
       frecuencia: 'Mensual',
       icon: <Bus size={24} />,
       categoria: 'Transporte',
-      imagen: '/data/bus2.jpg',
+      imagen: '/public/bus2.jpg',
     },
     {
       id: 'comedor-completo',
@@ -180,7 +180,7 @@ export function ServicesMarketplace({
   const categorias = [...new Set(servicios.map((s) => s.categoria))];
 
   const categoriaImages: Record<string, string> = {
-    'Transporte': '/data/transporte.avif',
+    'Transporte': '/public/transporte.avif',
     'Alimentación': 'https://images.unsplash.com/photo-1699345461139-73dfeecab9b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY29sb3JmdWwlMjBzY2hvb2wlMjBsdW5jaCUyMGZvb2QlMjBraWRzfGVufDF8fHx8MTc3ODI2MzY4OHww&ixlib=rb-4.1.0&q=80&w=800',
     'Deportes': 'https://images.unsplash.com/photo-1762345565397-ba85070a5bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMHBsYXlpbmclMjBzb2NjZXIlMjBvdXRkb29yJTIwc3BvcnR8ZW58MXx8fHwxNzc4MjYzNjg5fDA&ixlib=rb-4.1.0&q=80&w=800',
     'Artes': 'https://images.unsplash.com/photo-1765947386189-975769d0f162?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraWRzJTIwcGFpbnRpbmclMjBhcnQlMjBjcmVhdGl2ZSUyMGNvbG9yZnVsfGVufDF8fHx8MTc3ODI2MzY4OXww&ixlib=rb-4.1.0&q=80&w=800',
