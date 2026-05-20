@@ -47,7 +47,7 @@ export function LoginPage({ onLogin, onShowRegister }: LoginPageProps) {
 
               <div className="bg-primary/5 rounded-xl p-4 mb-4">
                 <p className="text-sm text-primary text-center">
-                  ✨ <strong>Demo:</strong> Ingresa tu nombre y correo, luego clic en Ingresar
+                    Ingresa tu nombre y correo, luego clic en Ingresar
                 </p>
               </div>
 
